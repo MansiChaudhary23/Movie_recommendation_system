@@ -25,11 +25,17 @@ The project uses:
 2)credits.csv
 
 Dataset contains:
+
 1)Movie titles
+
 2)Genres
+
 3)Keywords
+
 4)Cast information
+
 5)Crew information
+
 6)Overview and metadata
 
 # Working Process
@@ -51,8 +57,8 @@ Input:
 The Dark Knight
 
 Output:
-Batman Begins
-The Dark Knight Rises
-Man of Steel
-Batman v Superman
+Batman Begins,
+The Dark Knight Rises,
+Man of Steel,
+Batman v Superman,
 Watchmen
