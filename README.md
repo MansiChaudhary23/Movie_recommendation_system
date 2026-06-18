@@ -5,18 +5,28 @@ A content-based movie recommendation system built using Python, Pandas, NumPy, a
 This project uses content-based filtering to recommend movies based on similarity scores calculated from movie metadata. The recommendation engine helps users discover movies with similar themes, genres, and casts.
 
 # Features
-Movie recommendation based on selected movie
-Content-based filtering approach
-Data preprocessing and feature engineering
-Cosine similarity calculation
-Fast recommendation generation
-Uses TMDB movie dataset
+1)Movie recommendation based on selected movie
+
+2)Content-based filtering approach
+
+3)Data preprocessing and feature engineering
+
+4)Cosine similarity calculation
+
+5)Fast recommendation generation
+
+6)Uses TMDB movie dataset
 
 # Technologies Used
+
 Python
+
 Pandas
+
 NumPy
+
 Scikit-Learn
+
 Jupyter Notebook / Google Colab
 
 # Dataset
@@ -39,17 +49,29 @@ Dataset contains:
 6)Overview and metadata
 
 # Working Process
+
 1)Load movie and credits datasets.
+
 2)Merge datasets using movie ID.
+
 3)Extract important features:
+
        a) Genres
+       
        b) Keywords
+       
        c) Cast
+       
        d) Director
+       
 4)Clean and preprocess data.
+
 5)Create tags by combining features.
+
 6)Convert text into vectors using CountVectorizer.
+
 7)Calculate cosine similarity.
+
 8)Recommend top similar movies.
 
 # Example Recommendation
